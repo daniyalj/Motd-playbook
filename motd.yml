@@ -2,6 +2,6 @@
 - name: MOTD
   hosts: all
   vars:
-    motd_ascii_art: "óÔÔò ʕ·͡ᴥ·ʔ óÔÔò   ARCTIQ   óÔÔò ʕ·͡ᴥ·ʔ óÔÔò"
+    motd_ascii_art: "ʕ ∗ •́ ڡ •̀ ∗ ʔ   ARCTIQ   ʕ ∗ •́ ڡ •̀ ∗ ʔ"
   roles:
     - jtyr.motd
