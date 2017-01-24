@@ -2,7 +2,7 @@
 - name: MOTD
   hosts: all
   pre_tasks:
-    - name: Install SELinux requirement
+    - name: Install SELinux
       yum: pkg=libselinux-python state=latest
   vars:
     motd_ascii_art: "***** Cloudforms + Ansible *****"
