@@ -1,9 +1,9 @@
 ---
 - name: MOTD
   hosts: all
-  pre_tasks:
-    - name: Install SELinux
-      yum: pkg=libselinux-python state=latest
+  #pre_tasks:
+   # - name: Install SELinux
+    #  yum: pkg=libselinux-python state=latest
   vars:
     motd_ascii_art: "      _       _______      ______  _________  _____   ___      
      / \     |_   __ \   .' ___  ||  _   _  ||_   _|.'   `.    
