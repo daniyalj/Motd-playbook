@@ -1,7 +1,7 @@
 ---
 - name: MOTD
   hosts: all
-  pre-tasks:
+  pre_tasks:
     - name: install selinux for role
       yum: pkg=libselinux-python state=latest
   vars:
