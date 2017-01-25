@@ -1,6 +1,9 @@
 ---
 - name: MOTD
   hosts: all
+  pre-tasks:
+    - name: install selinux for role
+      yum: pkg=libselinux-python state=latest
   vars:
     motd_ascii_art: "ʕ ∗ •́ ڡ •̀ ∗ ʔ   ARCTIQ   ʕ ∗ •́ ڡ •̀ ∗ ʔ"
   roles:
