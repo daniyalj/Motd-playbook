@@ -5,6 +5,6 @@
     - name: install selinux for role
       yum: pkg=libselinux-python state=latest
   vars:
-    motd_ascii_art: "ʕ ∗ •́ ڡ •̀ ∗ ʔ   ARCTIQ   ʕ ∗ •́ ڡ •̀ ∗ ʔ"
+    motd_ascii_art: "ˁ˚ᴥ˚ˀ   ARCTIQ   ˁ˚ᴥ˚ˀ"
   roles:
     - jtyr.motd
